@@ -16,8 +16,8 @@ public class Departments {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int deptNo;
-    private String deptName;
+    private int departmentNo;
+    private String departmentName;
 
     private boolean isActive;
     private String createdBy;

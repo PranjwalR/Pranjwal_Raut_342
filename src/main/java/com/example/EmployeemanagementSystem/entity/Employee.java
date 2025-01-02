@@ -16,13 +16,14 @@ public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int empId;
-    private String empFirstName;
-    private String empLastName;
-    private int empAge;
-    private String empEmail;
-    private String doj;
+    private int employeeId;
+    private String employeeFirstName;
+    private String employeeLastName;
+    private int employeeAge;
+    private String employeeEmail;
+    private String dateOfJoining;
     private String salary;
+
 
     private boolean isActive;
     private String createdBy;

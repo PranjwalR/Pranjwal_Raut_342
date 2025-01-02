@@ -14,7 +14,7 @@ public class Managers {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int managerId;
-    private String mName;
+    private String managerName;
 
     private boolean isActive;
     private String createdBy;
